@@ -20,7 +20,7 @@ f-strings (formatted string literals) were introduced in Python 3.6.
 
 You prefix a string with f or F, and then you can embed variables or expressions inside {} directly.
 
-      - Readable & clean – You don’t need to break strings or call str() manually.
+    - Readable & clean – You don’t need to break strings or call str() manually.
   
       print(f"Hello {name}, you are {age} years old.")
   
