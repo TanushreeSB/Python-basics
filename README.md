@@ -21,25 +21,25 @@ f-strings (formatted string literals) were introduced in Python 3.6.
 You prefix a string with f or F, and then you can embed variables or expressions inside {} directly.
 
       - Readable & clean – You don’t need to break strings or call str() manually.
-    
-        print(f"Hello {name}, you are {age} years old.")
-    
-    
-      - Supports expressions inside {} – Not just variables, you can do calculations too.
-    
-        print(f"Area of rectangle: {length * breadth}")
-    
-        Output:
-        Area of rectangle: 200
-    
-    
-      - Formatting options – You can control how values look (decimal places, alignment, etc.):
-        pi = 3.14159
-        print(f"Pi rounded to 2 decimals: {pi:.2f}")
-    
-        Output:
-    
-        Pi rounded to 2 decimals: 3.14
-    
-    
-      - Faster than str.format() – because it’s evaluated at runtime and optimized.
+  
+      print(f"Hello {name}, you are {age} years old.")
+  
+  
+    - Supports expressions inside {} – Not just variables, you can do calculations too.
+  
+      print(f"Area of rectangle: {length * breadth}")
+  
+      Output:
+      Area of rectangle: 200
+  
+  
+    - Formatting options – You can control how values look (decimal places, alignment, etc.):
+      pi = 3.14159
+      print(f"Pi rounded to 2 decimals: {pi:.2f}")
+  
+      Output:
+  
+      Pi rounded to 2 decimals: 3.14
+  
+  
+    - Faster than str.format() – because it’s evaluated at runtime and optimized.
