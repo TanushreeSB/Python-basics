@@ -75,5 +75,11 @@ Output: My name is Tanushree and I am 22 years old
 
 output: My name is Tanushree and I am 22 years old
 
+- In Python, input() always returns a string, no matter what you type. You convert it to suitable data type. Eg:
+number = input("Enter a number: ")   
+number = int(number)
+
+Then you can perform operations
+
 
 
