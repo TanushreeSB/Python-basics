@@ -43,3 +43,35 @@ You prefix a string with f or F, and then you can embed variables or expressions
   
   
     - Faster than str.format() – because it’s evaluated at runtime and optimized.
+
+
+- Using , inside print()
+
+The comma separates multiple arguments in print().
+
+It automatically adds a space between them.
+
+Works with different data types (string, int, float, etc.) without needing conversion.
+
+    name = "Tanushree"
+    age = 22
+    print("My name is", name, "and I am", age, "years old")
+
+
+Output: My name is Tanushree and I am 22 years old
+
+
+- Using + inside print()
+
++ is string concatenation, so both sides must be strings.
+
+If you want to join a string with a number, you must explicitly convert the number using str().
+
+    name = "Tanushree"
+    age = 22
+    print("My name is " + name + " and I am " + str(age) + " years old")
+
+output: My name is Tanushree and I am 22 years old
+
+
+
